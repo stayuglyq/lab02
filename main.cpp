@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-
 int main()
 {
     std::cout<<"Hello World";
@@ -8,5 +7,6 @@ int main()
     std::cout << "Enter your name: ";
     std::cin >> name;
     std::cout << "Hello world from " << name << "!";
-    return 0;
+    //случайно убрал using namespace std; в part 1 
+    //"вношу другие изменения"
 }
